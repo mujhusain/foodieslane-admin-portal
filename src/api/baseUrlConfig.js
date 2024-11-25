@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 
 // Create an Axios instance
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000", // Replace with your API base URL
+  baseURL: "https://pp7q7fwvoa.execute-api.us-west-2.amazonaws.com/dev", // Replace with your API base URL
   timeout: 10000, // Set a timeout for requests (optional)
 });
 
